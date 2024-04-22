@@ -1,0 +1,182 @@
+{
+	"name": "Turbo C 3.0 Borland Style",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#000058",
+		"editor.foreground": "#00FF00",
+		"editorGroupHeader.tabsBackground": "#303030",
+		"editorCursor.foreground": "#FFFFFF",
+		"editor.lineHighlightBackground": "#00AAAA",
+		"editor.selectionForeground": "#ffffff",
+		"editor.selectionBackground": "#808080",
+		"editor.inactiveSelectionBackground": "#400000",
+		"editorGutter.background": "#D3D3D3",
+		"menu.background": "#D3D3D3",
+		"menu.foreground": "#000000",
+		"activityBar.background": "#000080",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBar.inactiveForeground": "#808080",
+		"activityBarBadge.background": "#FF0000",
+		"activityBarBadge.foreground": "#FFFFFF",
+		"sideBar.background": "#000000",
+		"sideBar.foreground": "#FFFFFF",
+		"sideBarTitle.foreground": "#808080",
+		"sideBarSectionHeader.background": "#000000",
+		"sideBarSectionHeader.foreground": "#FFFFFF",
+		"titleBar.activeBackground": "#808080",
+		"titleBar.activeForeground": "#000000",
+		"titleBar.inactiveBackground": "#000000",
+		"titleBar.inactiveForeground": "#808080",
+		"button.background": "#800000",
+		"button.foreground": "#FFFFFF",
+		"dropdown.background": "#000080",
+		"dropdown.border": "#800000",
+		"dropdown.foreground": "#FFFFFF",
+		"input.background": "#000080",
+		"input.border": "#800000",
+		"input.foreground": "#FFFFFF",
+		"badge.background": "#800000",
+		"badge.foreground": "#FFFFFF",
+		"terminal.foreground": "#b8b8b8",
+		"terminal.background": "#000000",
+		"terminalCursor.background": "#FFFFFF",
+		"terminalCursor.foreground": "#FFFFFF",
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiBlue": "#0000FF",
+		"terminal.ansiBrightBlack": "#808080",
+		"terminal.ansiBrightBlue": "#0000FF",
+		"terminal.ansiBrightCyan": "#00FFFF",
+		"terminal.ansiBrightGreen": "#00FF00",
+		"terminal.ansiBrightMagenta": "#FF00FF",
+		"terminal.ansiBrightRed": "#FF0000",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#FFFF00",
+		"terminal.ansiCyan": "#008080",
+		"terminal.ansiGreen": "#008000",
+		"terminal.ansiMagenta": "#800080",
+		"terminal.ansiRed": "#800000",
+		"terminal.ansiWhite": "#C0C0C0",
+		"terminal.ansiYellow": "#808000",
+		"statusBar.background": "#D3D3D3",
+		"statusBar.foreground": "#000000",
+		"statusBar.noFolderForeground": "#808080",
+		"statusBarItem.hoverBackground": "#FF0000",
+		"tab.activeBackground": "#000080",
+		"tab.activeForeground": "#000000",
+		"tab.inactiveBackground": "#000000",
+		"tab.inactiveForeground": "#808080",
+		"panel.background": "#333333",
+		"panel.border": "#102030",
+		"panelTitle.activeForeground": "#FFFFFF",
+		"panelTitle.inactiveForeground": "#fdf901",
+		"outputView.background": "#000000",
+		"button.hoverBackground": "#464646",
+		"button.separator": "#fdf901",
+		"button.border": "#ff0000",
+		"menu.border": "#D3D3D3",
+		"menu.separatorBackground": "#fdf901",
+		"menu.selectionBackground": "#00bb54",
+		"window.activeBorder": "#808080",
+		"window.inactiveBorder": "#000000",
+		"toolbar.activeBackground": "#ff0000",
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#00FFFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#EE0000"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#00AA00"
+			}
+		},
+
+		{
+			"name": "Keywords and Storage",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#00FF00"
+			}
+		},
+		{
+			"name": "Imports",
+			"scope": [
+				"keyword.control.import"
+			],
+			"settings": {
+				"foreground": "#0000FF",
+			}
+		},
+		{
+			"name": "Integers",
+			"scope": [
+				"constant.numeric.integer"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Floats",
+			"scope": [
+				"constant.numeric.float"
+			],
+			"settings": {
+				"foreground": "#FF69B4"
+			}
+		},
+		{
+			"name": "Params, Brackets, Semicolons",
+			"scope": [
+				"punctuation",
+				"meta.brace",
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#FFFF00"
+			}
+		},
+		{
+			"name": "Editor Gutter",
+			"scope": [
+				"gutter"
+			],
+			"settings": {
+				"foreground": "#D3D3D3"
+			}
+		},
+	],
+}

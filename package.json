@@ -1,0 +1,35 @@
+{
+  "name": "turboc-3-0-theme",
+  "displayName": "Turbo C.3.0-Theme",
+"description": "A retro 1991 color theme based on Bortlands Turbo C 3.0 for Dos",
+  "publisher": "Watkins Labs", 
+  "author": {
+    "name": "Chris Watkins",
+    "email": "chris@watkinslabs.com",
+    "url": "https://watkinslabs.com"
+  },
+  "icon": "assets/icon.png",
+
+
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Turbo C 3.0 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/turboc.3.0-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chris17453/vscode-turboc3.0-theme"
+  }
+ 
+}
