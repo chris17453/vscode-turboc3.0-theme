@@ -35,10 +35,6 @@ Turbo C 3.0 Theme was created by [Charles Watkins](https://watkinslabs.com). For
 
 Thanks to all the contributors who have helped shape this theme, and to the vibrant VSCode community for their continuous support and feedback.
 
-## The font used Perfoect Dos VGA 437.ttf was created by:
-- Zeh Fernando
-- zeh@zehfernando.com
--  www.zehfernando.com
 
 
 ## Screenshots
